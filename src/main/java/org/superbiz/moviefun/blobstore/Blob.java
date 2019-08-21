@@ -11,5 +11,6 @@ public class Blob {
         this.name = name;
         this.inputStream = inputStream;
         this.contentType = contentType;
+
     }
 }
