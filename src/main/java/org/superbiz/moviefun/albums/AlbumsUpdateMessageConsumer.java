@@ -21,6 +21,7 @@ public class AlbumsUpdateMessageConsumer {
         try {
             logger.debug("Starting albums update");
             albumsUpdater.update();
+
             logger.debug("Finished albums update");
 
         } catch (Throwable e) {
